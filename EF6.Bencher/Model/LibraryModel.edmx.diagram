@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="762060bb3b334d0e939b8f42f54ae4f1" Name="Diagram1">
+        <EntityTypeShape EntityType="LibraryDBModel.Address" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.Admin" Width="1.5" PointX="3.75" PointY="1.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.Author" Width="1.5" PointX="1.5" PointY="24.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.BookCategory" Width="1.5" PointX="1.5" PointY="27.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.Book" Width="1.5" PointX="3.75" PointY="25.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.BookTransaction" Width="1.5" PointX="6" PointY="7.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.ContactDetail" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.Inventory" Width="1.5" PointX="3.75" PointY="21.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.ItemCategory" Width="1.5" PointX="1.5" PointY="21.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.ItemTransaction" Width="1.5" PointX="6" PointY="3.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.sysdiagram" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.UserDetail" Width="1.5" PointX="3" PointY="17.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="LibraryDBModel.User" Width="1.5" PointX="0.75" PointY="7.75" IsExpanded="true" />
+        <AssociationConnector Association="LibraryDBModel.FK__Address__UserID__2D27B809" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryDBModel.FK__BookTrans__Admin__3C69FB99" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryDBModel.FK__ItemTrans__Admin__412EB0B6" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryDBModel.FK__Books__AuthorID__34C8D9D1" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryDBModel.FK__Books__CategoryI__33D4B598" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryDBModel.FK__BookTrans__BookI__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryDBModel.FK__BookTrans__UserI__3D5E1FD2" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryDBModel.FK__ContactDe__UserI__2A4B4B5E" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryDBModel.FK__Inventory__Categ__398D8EEE" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryDBModel.FK__ItemTrans__ItemI__4316F928" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryDBModel.FK__ItemTrans__UserI__4222D4EF" ManuallyRouted="false" />
+        <AssociationConnector Association="LibraryDBModel.FK__UserDetai__UserI__276EDEB3" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
